@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+	}
+	#trendy{
+		color: rgb(240, 72, 128);
+		text-shadow: 2px 2px 4px #000000;
+		box-shadow: 5px 10px 18px rgb(240, 72, 128);
+	}
+#cent
+{
+	background-image:url('images/Slider.jpg');
+
+	height:600px;		
+	background-size:cover;
+}
+
+nav{
+/* 	font-size: 15px;
+	font-weight: bolder; */
+	color: black;
+}
+#same{
+	font-size: large;
+	font-weight: bold;
+	text-shadow: deeppink;
+}
+.navbar a{color:white;}
+
+.ul1 .nav-item .nav-link{
+		color:#FFF;
+		margin-left:30px;;
+		
+	}
+
+#container h1
+{
+		font-size:40px;
+		color:#FFF;
+		padding-top:20px;
+	}	
+ /* 	.bg {
+background-color: black;
+		background-image: url("images/Slider.jpg");
+		background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	} */ 
+	
+	.page-holder {
+		min-height: 100vh;
+	  }
+	 .deco{
+		 text-decoration: none !important;
+	 } 
+	  .bg-cover {
+		background-size: cover !important;
+	  }
+	#searchvenue{
+		
+			padding-top:20px;	
+			width:30%;
+			padding:50px;
+		} 
+		
+		#searchven input
+		{
+			padding:10px;
+			width:50%;
+			border-radius:4px;
+			border:2px solid pink;
+				
+		}
+		@media(max-width:700px)
+		{
+				#searchven input{
+					width:100%;
+					}
+					#searchven button
+		{
+			padding:10px;
+			
+			border-radius:4px;
+		}
+			}
+		#searchven button
+		{
+			
+			padding:10px;
+			width:20%;
+			border-radius:4px;
+		}
+		#searchvenue #seacrspan
+			{
+				margin-top: 280px;
+				margin-left:5%;
+				color:white;
+				background-color:rgb(224, 105, 145);
+
+				padding:10px;
+				border-color:  rgb(240, 72, 128);
+				border: none;
+				border-radius: 4px;
+				position:relative;
+				top:-10px;
+				padding-right:40px;
+				z-index: 9999;
+				
+								padding-left:40px;
+							}
+#a{
+	color:white;
+	
+}
+#size {
+margin-left:300px;
+/* font-size: 30px; */
+}
+#size2 {
+	margin-left:250px !important;
+	/* font-size: 25px !important; */
+	}
+	#animate{
+		color: rgb(240, 72, 128);
+		text-shadow: 2px 2px 4px #000000;
+		box-shadow: 5px 10px 18px rgb(240, 72, 128);
+		position: relative;
+		animation-name: example;
+		animation-duration: 3s;  
+		animation-delay: 2s;
+		animation-fill-mode: both;
+	}
+	@keyframes example {
+		from {top:-130px; }
+		to {top: 0px;}
+	  }
+
+	#PKG{
+
+		margin-top: 35px;
+	}
+	.card{
+		
+	}
+#bgcontact{background-image:url(../images/cont.jpg);padding:50px;
+height: 200px !important;
+margin-top: 60px;}							
+
+#bgcontact1 h1{color:black;font-size:55px;
+}			
+
+#conform input{
+			width:48%;	
+			padding-top:10px;
+			height:50px;
+	}			
+	#conform{
+	padding-top:2px;	
+	
+		}	
+		#conform textarea
+		{
+			width:96%;height:270px;margin-top:10px;border-radius:2px;
+							border:1px solid pink;	
+		}
+		
+		#conform #f1
+		{
+				
+				margin-top:5px;		
+				border-radius:2px;
+				border:1px solid pink;				
+		}
+		#conform #f2{
+			margin-top:10px;
+			border-radius:2px;
+			border:1px solid pink;						
+			}
+		#conform button{
+					width:96%;
+					margin-top:10px;
+					height:44px;
+					background-color:rgb(240, 72, 128) !important;
+					color:white;
+					font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;							
+							}
+	#footer
+	{
+		background-image:url(../images/footerbg.jpg);
+		margin-top: 60px;
+		justify-content: space-around;
+		justify-content: center;
+		
+	}						
+	#footer .row
+	{
+		padding-top:70px;
+	}				
+	#navbarNavDropdown{
+		
+	}@charset "utf-8";
+	/* CSS Document */
+	body{
+	
+		}
+		#trendy{
+			color: rgb(240, 72, 128);
+			text-shadow: 2px 2px 4px #000000;
+			box-shadow: 5px 10px 18px rgb(240, 72, 128);
+		}
+	#cent
+	{
+		background-image:url('images/Slider.jpg');
+	
+		height:600px;		
+		background-size:cover;
+	}
+	
+	nav{
+		font-size: 25px;
+	}
+	.navbar a{color:white;}
+	
+	.ul1 .nav-item .nav-link{
+			color:#FFF;
+			margin-left:30px;;
+			
+		}
+		
+	#container h1
+	{
+			font-size:40px;
+			color:#FFF;
+			padding-top:20px;
+		}	
+	 /* 	.bg {
+	background-color: black;
+			background-image: url("images/Slider.jpg");
+			background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+		} */ 
+		
+		.page-holder {
+			min-height: 100vh;
+		  }
+		  
+		  .bg-cover {
+			background-size: cover !important;
+		  }
+		#searchvenue{
+			
+				padding-top:20px;	
+				width:30%;
+				padding:50px;
+			} 
+			
+			#searchven input
+			{
+				padding:10px;
+				width:50%;
+				border-radius:4px;
+				border:2px solid pink;
+					
+			}
+			@media(max-width:700px)
+			{
+					#searchven input{
+						width:100%;
+						}
+						#searchven button
+			{
+				padding:10px;
+				width:;
+				border-radius:4px;
+			}
+				}
+			#searchven button
+			{
+				
+				padding:10px;
+				width:20%;
+				border-radius:4px;
+			}
+			#searchvenue #seacrspan
+				{
+					margin-top: 280px;
+					margin-left:5%;
+					color:white;
+					background-color:rgb(224, 105, 145);
+	
+					padding:10px;
+					border-color:  rgb(240, 72, 128);
+					border: none;
+					border-radius: 4px;
+					position:relative;
+					top:-10px;
+					padding-right:40px;
+					z-index: 9999;
+					
+									padding-left:40px;
+								}
+	#a{color:white;
+		font-size: 20px;}
+	#size {
+	margin-left:300px;
+	font-size: 30px;
+	}
+	#size1 {
+		
+		}
+		#PKG{
+	
+			margin-top: 35px;
+		}
+	#bgcontact{background-image:url(../images/cont.jpg);padding:50px;
+	height: 200px !important;
+	margin-top: 60px;}							
+	
+	#bgcontact1 h1{color:black;font-size:55px;
+	}			
+	
+	#conform input{
+				width:48%;	
+				padding-top:10px;
+				height:50px;
+		}			
+		#conform{
+		padding-top:2px;	
+		
+			}	
+			#conform textarea
+			{
+				width:96%;height:270px;margin-top:10px;border-radius:2px;
+								border:1px solid pink;	
+			}
+			
+			#conform #f1
+			{
+					
+					margin-top:5px;		
+					border-radius:2px;
+					border:1px solid pink;				
+			}
+			#conform #f2{
+				margin-top:10px;
+				border-radius:2px;
+				border:1px solid pink;						
+				}
+			#conform button{
+						width:96%;
+						margin-top:10px;
+						height:44px;
+						background-color:rgb(240, 72, 128) !important;
+						color:white;
+						font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;							
+								}
+		#footer
+		{
+			background-image:url(../images/footerbg.jpg);
+			margin-top: 60px;
+			
+		}						
+		#footer .row
+		{
+			padding-top:70px;
+		}				
+		#navbarNavDropdown{
+			
+		}
